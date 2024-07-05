@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link id="estilo" rel="stylesheet" href="estilo1.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <section class="container-formulario" id="container-form">
+        <h1>Formulario de Datos Personales</h1>
+        <form class="formulario" action="" id="formulario">
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required>
+            </div>
+            <div>    
+                <label for="apellido">Apellido:</label>
+                <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Ingrese su email" required>
+            </div>
+            <div>
+                <label for="telefono">Telefono:</label>
+                <input type="text" name="telefono" id="telefono" placeholder="Ingrese su Telefono" required>
+            </div>
+            <div>
+                <label for="fecha">Fecha de Nacimiento:</label>
+                <input type="date" name="fecha" id="fecha" required>
+            </div>
+            <div>
+                <label for="pais">País de Residencia:</label>
+                <input type="text" name="pais" id="pais" placeholder="Ingrese su pais de Residencia" required>
+            </div>
+            <button type="submit" name="enviar" id="btn" value="Enviar">Enviar</button>
+        </form>
+        <div class="estilos">
+            <button type="button" name="estilo1" id="btn2">Estilo 1</button>    
+            <button type="button" name="altoContraste" id="btn3">Estilo Alto Contraste</button>
+        </div>
+    </section>
+
+    <script src="./codigo.js"></script>
+    
+</body>
+</html>

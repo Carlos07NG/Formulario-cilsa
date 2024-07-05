@@ -1,0 +1,47 @@
+.container-formulario {
+    background-color: #000;
+    padding: 10px;
+    max-width: 65%;
+    margin: auto;
+    color: #fff;
+}
+
+.container-formulario h1 {
+    text-align: center;
+    font-size: xxx-large;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 2% 25%;
+    background-color: rgb(47 42 42);
+}
+
+.formulario div {
+    display: flex;
+    flex-direction: column;
+    margin: 6px;
+}
+
+.formulario div input,input[type="submit"] {
+    padding: 7px;
+}
+#btn {
+    text-align: center;
+    padding: 8px;
+    margin: 6px;
+    background-color: yellow;
+    font-size: 16px;
+}
+.estilos {
+    display: flex;
+    flex-direction: column;
+    padding: 0 38%;
+    gap: 10px;
+}
+.estilos button {
+    padding: 10px;
+    background-color: yellow;
+}
